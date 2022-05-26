@@ -1,0 +1,159 @@
+$mau1 : #111;
+$mau2 : #F5F5F5;
+$xam_dam : #E5E5E5;
+$font: Arial, Helvetica, sans-serif;
+
+.topnav {
+/*--------Thanh tren cung--------*/
+    .container-fluid{
+        border: 0;
+        position:sticky;
+        background-color: $mau2;
+        height: 4vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        .logo_flxb{
+            display: flex;
+            position: absolute;
+            gap:20px;
+            top: 50%;
+            left:3%;
+            transform: translateY(-50%);
+            img{
+                width: 25px;
+            }
+        }
+        
+        .flxb-container{
+            position: absolute;
+            display: flex;
+            gap:5px;
+            top: 50%;
+            left:85%;
+            transform: translateY(-50%);
+            a{
+                font-family: $font ;
+                font-size: 14px;
+                font-weight: 400;
+                display: inline;
+                color: $mau1;
+                text-decoration: none;
+                }
+        }
+    }
+/*--------Thanh menu--------*/
+    .ctn-menu{
+        position: relative;
+        height: 6vh;
+        background-color: rgb(255, 255, 255);
+        
+        img{
+            display: inline;
+            position: relative;
+            width: 75px;
+            left:50px;
+            top:50%;
+            transform: translateY(-50%);
+        }
+        .menu_flxb{
+            display: flex;
+            position: absolute;
+            height: 17px;
+            top: 35%;
+            left:50%;
+            transform: translateX(-50%);
+            gap: 50px;       
+        }
+        a{
+            text-decoration: none;
+            font-family: $font;
+            font-size: 17px;
+            color:$mau1;
+        } 
+    }
+    .searchbox{
+        position:absolute;
+        width: 180px;
+        height: 4.5vh ;
+        left: 40vw;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    input{
+        height: inherit;
+        width: inherit;
+        background-color: $mau2;
+        border-radius: 25px; 
+        border:none;
+    }
+    input:hover{
+        background-color: $xam_dam;
+    }
+    svg {
+        position: absolute;
+        width: 25px;
+        left: 9px;
+        top:50%;
+        transform: translateY(-50%);
+        
+    }
+    .favourite_flxb{
+        display: flex;
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        left:54vw;
+        gap: 10px;
+        button{
+            background: none;
+            position: relative;
+            width: fit-content;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            border: none;
+        }
+        button:hover{
+            background-color: $xam_dam;
+        }
+        #cart_icon{
+            font-size: 22px;
+            --ionicon-stroke-width: 35px;
+        }
+    }
+//------------Thanh chữ chạy chạy--------//
+    .ctn3{
+        position: relative;
+        display: flex;
+        background-color: $mau2;
+        height: 7vh;
+
+
+        .flb3{
+            position: relative;
+            height: fit-content;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%)
+            
+        }
+        .arrow{
+            position: inherit;
+            font-size: 25px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        span{
+            position: relative;
+
+            height:7vh;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+    }
+
+    
+        
+}

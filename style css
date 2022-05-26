@@ -1,0 +1,144 @@
+.topnav {
+  /*--------Thanh tren cung--------*/
+  /*--------Thanh menu--------*/
+}
+.topnav .container-fluid {
+  border: 0;
+  position: sticky;
+  background-color: #F5F5F5;
+  height: 4vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.topnav .container-fluid .logo_flxb {
+  display: flex;
+  position: absolute;
+  gap: 20px;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+.topnav .container-fluid .logo_flxb img {
+  width: 25px;
+}
+.topnav .container-fluid .flxb-container {
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  top: 50%;
+  left: 85%;
+  transform: translateY(-50%);
+}
+.topnav .container-fluid .flxb-container a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline;
+  color: #111;
+  text-decoration: none;
+}
+.topnav .ctn-menu {
+  position: relative;
+  height: 6vh;
+  background-color: rgb(255, 255, 255);
+}
+.topnav .ctn-menu img {
+  display: inline;
+  position: relative;
+  width: 75px;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topnav .ctn-menu .menu_flxb {
+  display: flex;
+  position: absolute;
+  height: 17px;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 50px;
+}
+.topnav .ctn-menu a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #111;
+}
+.topnav .searchbox {
+  position: absolute;
+  width: 180px;
+  height: 4.5vh;
+  left: 40vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topnav input {
+  height: inherit;
+  width: inherit;
+  background-color: #F5F5F5;
+  border-radius: 25px;
+  border: none;
+}
+.topnav input:hover {
+  background-color: #E5E5E5;
+}
+.topnav svg {
+  position: absolute;
+  width: 25px;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topnav .favourite_flxb {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 54vw;
+  gap: 10px;
+}
+.topnav .favourite_flxb button {
+  background: none;
+  position: relative;
+  width: fit-content;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+}
+.topnav .favourite_flxb button:hover {
+  background-color: #E5E5E5;
+}
+.topnav .favourite_flxb #cart_icon {
+  font-size: 22px;
+  --ionicon-stroke-width: 35px;
+}
+.topnav .ctn3 {
+  position: relative;
+  display: flex;
+  background-color: #F5F5F5;
+  height: 7vh;
+}
+.topnav .ctn3 .flb3 {
+  position: relative;
+  height: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav .ctn3 .arrow {
+  position: inherit;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.topnav .ctn3 span {
+  position: relative;
+  height: 7vh;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*# sourceMappingURL=style%20css.map */
